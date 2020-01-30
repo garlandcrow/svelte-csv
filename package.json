@@ -1,0 +1,24 @@
+{
+  "name": "svelte-csv",
+  "version": "0.1.0",
+  "description": "port of react-csv to svelte",
+  "keywords": [
+    "svelte",
+    "csv"
+  ],
+  "author": "Garland Crow",
+  "license": "ISC",
+  "main": "src/index.js",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "prettier-plugin-svelte": "^0.7.0"
+  },
+  "peerDependencies": {
+    "svelte": "^3.18.1"
+  }
+}
