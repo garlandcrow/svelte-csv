@@ -3,7 +3,7 @@
   import { buildURI, toCSV } from '../core'
 
   export let separator = ','
-  export let filename = 'generatedBy_react-csv.csv'
+  export let filename = 'generated-by_svelte-csv.csv'
   export let enclosingCharacter = '"'
   export let uFEFF = true
   export let asyncOnClick = false
